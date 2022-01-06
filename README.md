@@ -1,5 +1,5 @@
 # web_scraping_challenge
-application of Mongodb, flask, spliter and selenium
+application of Mongodb, flask, beautiful sup, spliter and selenium
 
 In this assigment a web application was built that scrapes various websites for data related to the Mission to Mars and displays the information in a single HTML page. The following outlines what was done.
 
