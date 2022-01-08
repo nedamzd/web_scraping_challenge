@@ -92,12 +92,8 @@ def scrape():
     
     browser.quit()
     return mars_dict
-mar_db=
-results=scrape()
-print(results)
 
-
-
-
+# results=scrape()
+# print(results)
 
 

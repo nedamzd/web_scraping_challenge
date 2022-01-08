@@ -13,6 +13,8 @@
   <div class="container">
     <div class="jumbotron text-center">
       <h1>Mission to Mars</h1>
+      <h5>by Neda Mehdizadeh</h5>
+      <h3>Press the button to see the most recent updates about mars</h3>
       <p><a class="btn btn-primary btn-lg" href="/scrape" role="button">Scrape new data</a></p>
     </div>
       
@@ -20,8 +22,7 @@
     <div class="row" id="mars_news">
       <div class="col-md-12">
         <h2>Latest Mars News</h2>
-        <!--<h3>{{mars["news_title"]}}</h3>-->
-        <h3>{{mars_dict}}</h3>
+        <h3>{{mars.news_title}}</h3>
         <p>{{ mars.news_paragraph }}</p>
       </div>
     </div>
@@ -42,7 +43,8 @@
         </div>
       </div>
     </div>
-    <div class="row">       
+    <div class="row">
+      <h2 class=""><u>Mars Hemisphere Images</u></h2>    
             {% for hem in mars.hemisphere_images %} 
               <div class="col-6 border">
               </br>
